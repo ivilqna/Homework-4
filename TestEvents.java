@@ -26,11 +26,11 @@ public class TestEvents {
 
 		if (helloo) {
 
-			System.out.println("\nВсички си казаха здравейте!");
+			System.out.println("\nР’СЃРёС‡РєРё СЃРё РєР°Р·Р°С…Р° Р·РґСЂР°РІРµР№С‚Рµ!");
 
 		} else {
 
-			System.out.println("\nНикой не каза здравей!");
+			System.out.println("\nРќРёРєРѕР№ РЅРµ РєР°Р·Р° Р·РґСЂР°РІРµР№!");
 
 		}
 
@@ -38,11 +38,11 @@ public class TestEvents {
 
 		if (helloo) {
 
-			System.out.println("\nВсички си казаха здравейте!");
+			System.out.println("\nР’СЃРёС‡РєРё СЃРё РєР°Р·Р°С…Р° Р·РґСЂР°РІРµР№С‚Рµ!");
 
 		} else {
 
-			System.out.println("\nНикой не каза здравей!");
+			System.out.println("\nРќРёРєРѕР№ РЅРµ РєР°Р·Р° Р·РґСЂР°РІРµР№!");
 
 		}
 
