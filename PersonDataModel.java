@@ -4,7 +4,7 @@ import javax.swing.table.AbstractTableModel;
 
 import fmi.informatics.extending.Person;
 
-// Ñúçäàâàìå êëàñ PersonDataModel
+// Създаваме клас PersonDataModel
 
 public class PersonDataModel extends AbstractTableModel {
 
@@ -24,7 +24,7 @@ public class PersonDataModel extends AbstractTableModel {
 
 	public int getColumnCount() {
 
-		return 8; // áðîé êîëîíè â òàáëèöàòà
+		return 8; // брой колони в таблицата
 
 	}
 
@@ -32,7 +32,7 @@ public class PersonDataModel extends AbstractTableModel {
 
 	public int getRowCount() {
 
-		return people.length; // áðîé ðåäîâå â òàáëèöàòà
+		return people.length; // брой редове в таблицата
 
 	}
 
@@ -81,6 +81,7 @@ public class PersonDataModel extends AbstractTableModel {
 	}
 
 	@Override
+
 	public String getColumnName(int column) {
 
 		switch (column) {
@@ -120,7 +121,8 @@ public class PersonDataModel extends AbstractTableModel {
 		default:
 
 			return super.getColumnName(column);
-		}	
+
+		}
 
 	}
 
