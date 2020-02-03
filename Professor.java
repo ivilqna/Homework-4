@@ -40,7 +40,7 @@ public class Professor extends Person {
 
 	}
 
-// Имплементация на абстрактен метод
+// РРјРїР»РµРјРµРЅС‚Р°С†РёСЏ РЅР° Р°Р±СЃС‚СЂР°РєС‚РµРЅ РјРµС‚РѕРґ
 
 	@Override
 
@@ -50,7 +50,7 @@ public class Professor extends Person {
 
 	}
 
-// Пренаписване на метод от супер клас
+// РџСЂРµРЅР°РїРёСЃРІР°РЅРµ РЅР° РјРµС‚РѕРґ РѕС‚ СЃСѓРїРµСЂ РєР»Р°СЃ
 
 	@Override
 
@@ -62,9 +62,9 @@ public class Professor extends Person {
 
 	}
 
-// Имплементация на методите от двата интерфейса (без getShower(), който е
+// РРјРїР»РµРјРµРЅС‚Р°С†РёСЏ РЅР° РјРµС‚РѕРґРёС‚Рµ РѕС‚ РґРІР°С‚Р° РёРЅС‚РµСЂС„РµР№СЃР° (Р±РµР· getShower(), РєРѕР№С‚Рѕ Рµ
 
-// имплементиран в абстрактният клас. Ако е необходимо getShower() може да се пренапише)
+// РёРјРїР»РµРјРµРЅС‚РёСЂР°РЅ РІ Р°Р±СЃС‚СЂР°РєС‚РЅРёСЏС‚ РєР»Р°СЃ. РђРєРѕ Рµ РЅРµРѕР±С…РѕРґРёРјРѕ getShower() РјРѕР¶Рµ РґР° СЃРµ РїСЂРµРЅР°РїРёС€Рµ)
 
 	@Override
 
@@ -120,7 +120,7 @@ public class Professor extends Person {
 
 	}
 
-// Създаваме клас ProfessorGenerator
+// РЎСЉР·РґР°РІР°РјРµ РєР»Р°СЃ ProfessorGenerator
 
 	public static class ProfessorGenerator {
 
@@ -146,7 +146,7 @@ public class Professor extends Person {
 
 			int weight = ThreadLocalRandom.current().nextInt(50, 220);
 
-			String type = "Преподавател";
+			String type = "РџСЂРµРїРѕРґР°РІР°С‚РµР»";
 
 			return new Professor(name, title, egn, age, height, weight, type);
 
