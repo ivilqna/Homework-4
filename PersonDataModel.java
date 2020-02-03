@@ -4,7 +4,7 @@ import javax.swing.table.AbstractTableModel;
 
 import fmi.informatics.extending.Person;
 
-// Създаваме клас PersonDataModel
+// Г‘ГєГ§Г¤Г ГўГ Г¬ГҐ ГЄГ«Г Г± PersonDataModel
 
 public class PersonDataModel extends AbstractTableModel {
 
@@ -24,7 +24,7 @@ public class PersonDataModel extends AbstractTableModel {
 
 	public int getColumnCount() {
 
-		return 8; // брой колони в таблицата
+		return 8; // ГЎГ°Г®Г© ГЄГ®Г«Г®Г­ГЁ Гў ГІГ ГЎГ«ГЁГ¶Г ГІГ 
 
 	}
 
@@ -32,7 +32,7 @@ public class PersonDataModel extends AbstractTableModel {
 
 	public int getRowCount() {
 
-		return people.length; // брой редове в таблицата
+		return people.length; // ГЎГ°Г®Г© Г°ГҐГ¤Г®ГўГҐ Гў ГІГ ГЎГ«ГЁГ¶Г ГІГ 
 
 	}
 
@@ -81,48 +81,46 @@ public class PersonDataModel extends AbstractTableModel {
 	}
 
 	@Override
-
 	public String getColumnName(int column) {
 
 		switch (column) {
 
 		case 0:
 
-			return "Име";
+			return "РРјРµ";
 
 		case 1:
 
-			return "ЕГН";
+			return "Р•Р“Рќ";
 
 		case 2:
 
-			return "Години";
+			return "Р“РѕРґРёРЅРё";
 
 		case 3:
 
-			return "Височина";
+			return "Р’РёСЃРѕС‡РёРЅР°";
 
 		case 4:
 
-			return "Тегло";
+			return "РўРµРіР»Рѕ";
 
 		case 5:
 
-			return "Титла";
+			return "РўРёС‚Р»Р°";
 
 		case 6:
 
-			return "Фак.номер";
+			return "Р¤Р°Рє.РЅРѕРјРµСЂ";
 
 		case 7:
 
-			return "Тип";
+			return "РўРёРї";
 
 		default:
 
 			return super.getColumnName(column);
-
-		}
+		}	
 
 	}
 
