@@ -18,7 +18,7 @@ import fmi.informatics.extending.Professor;
 
 import fmi.informatics.extending.Student;
 
-// създаваме клас PersonDataGUI
+// СЃСЉР·РґР°РІР°РјРµ РєР»Р°СЃ PersonDataGUI
 
 public class PersonDataGUI {
 
@@ -78,11 +78,11 @@ public class PersonDataGUI {
 
 	public void createAndShowGUI() {
 
-		JFrame frame = new JFrame("Таблица с данни за хора");
+		JFrame frame = new JFrame("РўР°Р±Р»РёС†Р° СЃ РґР°РЅРЅРё Р·Р° С…РѕСЂР°");
 
 		frame.setSize(800, 500);
 
-		JLabel label = new JLabel("Списък с потребители", JLabel.CENTER);
+		JLabel label = new JLabel("РЎРїРёСЃСЉРє СЃ РїРѕС‚СЂРµР±РёС‚РµР»Рё", JLabel.CENTER);
 
 		personDataModel = new PersonDataModel(people);
 
